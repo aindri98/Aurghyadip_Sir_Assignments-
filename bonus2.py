@@ -1,0 +1,9 @@
+a=input("Enter fraction 1: ")
+b=input("Enter fraction 2: ")
+x,y=a.split("/")
+u,v=b.split("/")
+n1,d1,n2,d2=int(x),int(y),int(u),int(v)
+s1=((n1*d2)+(n2*d1))
+s2=d1*d2
+sum="/".join([str(s1),str(s2)])
+print(f"The result={sum}" )
