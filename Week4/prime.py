@@ -15,7 +15,6 @@ def isPrime(x):
             return False
 if __name__ == '__main__':
     x=int(input("Enter the number:"))
-    print(isPrime(x))
     if(isPrime(x)):
         print("Prime")
     else:

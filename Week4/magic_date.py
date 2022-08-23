@@ -1,4 +1,4 @@
-from  days import Number_of_daysCalc
+from  Week4.days import Number_of_daysCalc
 def magicDate_check(k,m,y):
     return(bool((k*m)==(y%100)))
 

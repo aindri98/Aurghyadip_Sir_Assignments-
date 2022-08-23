@@ -1,4 +1,4 @@
-from prime import isPrime
+from Week4.prime import isPrime
 def nextPrime(x):
     while True:
         x+=1
