@@ -5,7 +5,9 @@ def leap_year(y):
 def Number_of_daysCalc(m,y):
             if(m-1==1):               
                 if(leap_year(y)):
-                        return arr[m-1]+1
+                    return arr[m-1]+1
+                else:
+                    return arr[m-1]
             else:    
                 return arr[m-1]
 
